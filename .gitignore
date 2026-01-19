@@ -1,0 +1,67 @@
+# ========== SECRETS (NEVER COMMIT!) ==========
+.env
+*.env
+.env.local
+**/.env
+
+# API Keys (if stored separately)
+api_keys.txt
+secrets/
+
+# ========== PYTHON ==========
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments (if using venv instead of conda)
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ========== JUPYTER / NOTEBOOKS ==========
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ========== FAISS / VECTOR STORES ==========
+# FAISS index files (can be large, regenerate locally)
+*.faiss
+*.index
+faiss_index/
+vector_store/
+
+# ========== STREAMLIT ==========
+.streamlit/secrets.toml  # Streamlit secrets file
+
+# ========== IDE / EDITORS ==========
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# ========== OS FILES ==========
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ========== LOGS / TEMP FILES ==========
+*.log
+*.tmp
+logs/
+temp/
