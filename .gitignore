@@ -11,8 +11,8 @@ secrets/
 # ========== PYTHON ==========
 # Byte-compiled files
 __pycache__/
-*.py[cod]
-*$py.class
+# *.py[cod]
+# *$py.class
 *.so
 
 # Virtual environments (if using venv instead of conda)
